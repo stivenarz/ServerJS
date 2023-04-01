@@ -73,7 +73,7 @@ if (!users) {
 function ResetUsers() {
   users = [];
   for (let i = 0; i < 5; i++) {
-    users.push({ name: "user " + i, lastname: "lastname " + i });
+    users.push({ name: "user " + i, body: "description " + i });
   }
 }
 
